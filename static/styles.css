@@ -1,0 +1,131 @@
+body {
+    font-family: "Courier New", "Tahoma", sans-serif;
+    font-size: 1.1rem;
+    text-transform: lowercase;
+}
+
+a {
+    color: #ff54b0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #ff1493;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+    border: 3px solid;
+}
+
+.app-logo img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.login-info {
+    font-size: 0.95rem;
+}
+
+.dark {
+    background-color: #333;
+}
+
+.align-left {
+    text-align:left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+#notes {
+    height: 150px;
+}
+
+.contact-card-alignment {
+    padding: 0;
+    margin-bottom: 30px !important;
+}
+
+.contact-card-alignment button {
+    height: 58px;
+    width: 60px;
+}
+
+.contact-card {
+    background-color: aquamarine;
+    padding: 15px;
+    margin-bottom: 30px !important;
+}
+
+.contrast {
+    color: #3f7f6a;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+    transition: none;
+}
+
+.btn-primary {
+    background-color: aquamarine;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #ff54b0;
+    color: white;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #75f1c7;
+    color: black;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #ff1493;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    background-color: black;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border: 3px solid #ff54b0;
+    box-shadow: unset;
+
+}
+
+.alert-primary {
+    background-color: #df1180;
+    color: white;
+    border: 0;
+}
+
+hr {
+    margin: 30px 0 30px 0;
+}
+
+footer {
+    font-size: 0.95rem !important;
+}

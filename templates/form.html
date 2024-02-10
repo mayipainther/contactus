@@ -1,0 +1,38 @@
+<div class="form-floating mb-3">
+    <input type="text" name="name" id="name" class="form-control" autofocus autocomplete="off" placeholder value="{{ contact.name }}">
+    <label for="name">name</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" name="passion" id="passion" class="form-control" autocomplete="off" placeholder value="{{ contact.passion }}">
+    <label for="passion">passion/hobby</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" name="work" id="work" class="form-control" autocomplete="off" placeholder value="{{ contact.work }}">
+    <label for="work">work/studies</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" name="first-tel" id="first-tel" class="form-control" autocomplete="off" placeholder value="{{ contact.tel }}">
+    <label for="first-tel">tel</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="email" name="email" id="email" class="form-control" autocomplete="off" placeholder value="{{ contact.email }}">
+    <label for="email">email</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="date" name="last" id="last" class="form-control" placeholder value="{{ contact.last }}">
+    <label for="last">last contact</label>
+</div>
+
+<div class="form-floating mb-3">
+    <textarea name="notes" id="notes" class="form-control" autocomplete="off" placeholder>{{ contact.notes }}</textarea>
+    <label for="notes">notes</label>
+</div>
+
+<div class="form-floating mb-3 align-left">
+    <button class="btn btn-primary btn-lg" type="submit"><i class="fa-solid fa-floppy-disk fa-sm"></i> save</button>
+</div>

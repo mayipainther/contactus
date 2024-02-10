@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    | edit
+{% endblock %}
+
+{% block main %}
+    <div class="container-sm">
+        <form action="/edit-contact" method="post">
+            {% include 'form.html' %}
+            <input type="hidden" name="contact_id" value="{{ contact.id }}">
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    | add
+{% endblock %}
+
+{% block main %}
+    <div class="container-sm">
+        <form action="/add-contact" method="post">
+            {% include 'form.html' %}
+        </form>
+    </div>
+{% endblock %}
